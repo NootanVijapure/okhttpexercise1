@@ -1,22 +1,2 @@
-# find out current active trasaction
-
-  private static void updateQuery() throws SQLException {
-        String sql ...
-        }
-    }
-
-    private static boolean isCurrentActiveTransaction() throws SQLException {
-       
-
-        String sql = "SELECT \n" +
-                     "    COUNT(1) AS count\n" +
-                     "FROM\n" +
-                     "    INFORMATION_SCHEMA.INNODB_TRX\n" +
-                     "WHERE\n" +
-                     "    trx_mysql_thread_id = CONNECTION_ID()";
-
-       
-}
-    
-
-
+Exercise 1: Perform a Put request to update user data using okhttp
+Exercise 1: Perform a DELETE request using okhttp
